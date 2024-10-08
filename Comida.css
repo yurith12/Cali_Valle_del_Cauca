@@ -1,0 +1,116 @@
+body {
+    background-image: url("https://passporterapp.com/es/blog/wp-content/uploads/2021/09/que-ver-en-cali-.jpg"); /* Imagen de fondo */
+
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3b3b3b71;
+    color: #ffffff;
+}
+/* Estilo del menú de navegación */
+nav {
+    display: flex;
+    justify-content: flex-end; /* Alinea el menú a la derecha dentro del contenedor de encabezado */
+    gap: 10px; /* Espacio entre los elementos del menú */
+    margin-top: auto; /* Empuja el menú hacia abajo dentro del contenedor */
+    padding: 0 1em; /* Espacio a los lados del menú */
+    position: absolute; /* Posiciona el menú en relación a su contenedor */
+    bottom: 30%; /* Ajusta la posición desde el borde inferior del encabezado */
+    right: 2%; /* Ajusta la posición desde el borde derecho del encabezado */
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.0rem;
+    padding: 10px 15px;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 5px;
+    background-color: rgb(28, 28, 29);
+}
+
+nav a:hover {
+    color: #b3e0ff;
+    background-color: rgba(54, 55, 56, 0);
+}
+
+nav a.active {
+    background-color: rgba(92, 93, 95, 0.513);
+    border: 2px solid #23232400;
+    color: #ffffff;
+    border-radius: 5px;
+}
+header {
+    text-align: center;
+    background-color: #24242452; /* Color naranja vibrante */
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(71, 71, 71, 0.247);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.item {
+    background-color: #ffffff3a;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgb(255, 255, 255);
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: 200px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Mantiene el aspecto de la imagen ajustándose al tamaño */
+    border-radius: 10px;
+}
+
+.item h3 {
+    margin: 10px 0;
+    color: #ffffff;
+    font-size: 1.3em;
+}
+
+.item p {
+    font-size: 1.1em;
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffffff52;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
